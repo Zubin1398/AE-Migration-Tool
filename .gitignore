@@ -1,0 +1,30 @@
+# Rust build output
+/target/
+**/target/
+
+# Node.js and frontend build output
+/node_modules/
+/dist/
+/coverage/
+
+# Tauri-generated schemas and local state
+/src-tauri/gen/schemas/
+/src-tauri/.tauri/
+
+# Local logs, installers, and generated build notes
+/build_output*.txt
+**/build_output*.txt
+/rustup-init.exe
+/logo.ico
+*.log
+
+# Local agent/planning files
+/.superpowers/
+/docs/superpowers/
+
+# Environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
